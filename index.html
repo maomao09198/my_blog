@@ -7,13 +7,17 @@
 
     <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon" />
 
-    <link rel="stylesheet" href="./bs/css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="./bs/css/bootstrap.min.css" /> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="./css/stye.css" />
+    
   </head>
 
   <body>
+    <div id="light" >
+<!-- Light-Switch -->
+
     <!-- Header Section -->
     <header id="header" class="container-wapper">
       <div
@@ -59,12 +63,9 @@
             </div>
           </nav>
         </div>
-        <div id="toggle-button" class="theme-switch">
-            <div class="button-wrapper">
-                <button class="btn switch-button">
-                    <img src="./assets/sunny.png" alt="Button">
-                </button>
-            </div>
+        <div id="toggle-button " class="theme-switch openNav" onclick="openNav()">
+           <img src="./assets/Swich.png" alt="">
+
         </div>
       </div>
     </header>
@@ -75,9 +76,9 @@
     <div class="heroBg container">
       <img src="./assets/heroBg.png" alt="Photo" />
     </div>
-    <div class="overlay dark-mode">
+    <div class="overlay">
       <div class="tec"><a href="#" class="btn btn-primary">Technology</a></div>
-      <h2>The Impact of Technology on <br> the Workplace: How <br> Technology is Changing</h2>
+      <div><h2>The Impact of Technology on <br> the Workplace: How <br> Technology is Changing</h2></div>
       <div class="">
         <img src="./assets/Short Info.png" alt="logo">       
       </div>
@@ -305,6 +306,309 @@
     </div>
   </div>
 </footer>
+</div>
+
+<!-- Dark-Switch -->
+
+<div id="myNav" class="overlay2">
+<header id="header" class="container-wapper">
+  <div
+    class="container header d-flex align-items-center justify-content-between"
+  >
+    <div id="logo" class="logo">
+      <a href="/"><img src="./assets/Logo1.png" alt="Logo-White" /></a>
+    </div>
+    <div class="navbar">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse dark-t" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" style="color: white;" aria-current="page" href="/"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: white;" href="/blogs.html">Our Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: white;" href="about-me.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true" style="color: white;"
+                  >Contact Now</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="toggle-button " class="theme-switch closebtn" onclick="closeNav()">
+      <img src="./assets/Swich1.png" alt=""> 
+   </div>
+  </div>
+</header>
+
+<!-- body -->
+
+<section>
+  <div class="heroBg container">
+    <img src="./assets/heroBg.png" alt="Photo" />
+  </div>
+  <div class="overlay bg-black text-white">
+    <div class="tec"><a href="#" class="btn btn-primary">Technology</a></div>
+    <div><h2>The Impact of Technology on <br> the Workplace: How <br> Technology is Changing</h2></div>
+    <div class="">
+      <img src="./assets/Short Info.png" alt="logo">       
+    </div>
+  </div>
+</section>
+
+<!-- Ads -->
+
+<div class="text-block  container" style="background-color: rgb(73, 69, 69); color: rgb(185, 171, 171);">
+<p>Advertisement</p>
+<h6>You can place ads</h6>
+</div>
+
+<!-- blocks -->
+
+<div class="container blocks">
+<h5>Latest Post</h5>
+
+<div class="overflow-hidden text-center">
+<div class="row gy-5">
+  <div class="col-4">
+    <div class="p-3">
+      <div class="card bg-black text-white" style="width: 20rem;">
+        <img src="./assets/Rectangle 38.png" class="card-img-top" alt="...">
+        <div class="tec"><a href="#" class="btn btn-primary">Technology</a></div>
+  <h4>The Impact of Technology on <br> the Workplace: How <br> Technology is Changing</h4>
+  <div class="flex ">
+    <img src="./assets/Short Info.png" alt="logo">       
+  </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="p-3">
+      <div class="card bg-black text-white" style="width: 20rem;">
+        <img src="./assets/Rectangle 382.png" class="card-img-top" alt="...">
+        <div class="tec"><a href="#" class="btn btn-primary">Technology</a></div>
+  <h4>The Impact of Technology on <br> the Workplace: How <br> Technology is Changing</h4>
+  <div class="flex ">
+    <img src="./assets/Short Info.png" alt="logo">       
+  </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="p-3">
+      <div class="card bg-black text-white" style="width: 20rem;">
+        <img src="./assets/Rectangle 383.png" class="card-img-top" alt="...">
+        <div class="tec"><a href="#" class="btn btn-primary">Technology</a></div>
+  <h4>The Impact of Technology on <br> the Workplace: How <br> Technology is Changing</h4>
+  <div class="flex ">
+    <img src="./assets/Short Info.png" alt="logo">       
+  </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="p-3">
+      <div class="card bg-black text-white" style="width: 20rem;">
+        <img src="./assets/Rectangle 384.png" class="card-img-top" alt="...">
+        <div class="tec"><a href="#" class="btn btn-primary">Technology</a></div>
+  <h4>The Impact of Technology on <br> the Workplace: How <br> Technology is Changing</h4>
+  <div class="flex ">
+    <img src="./assets/Short Info.png" alt="logo">       
+  </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="p-3">
+      <div class="card bg-black text-white" style="width: 20rem;">
+        <img src="./assets/Rectangle 385.png" class="card-img-top" alt="...">
+        <div class="tec"><a href="#" class="btn btn-primary">Technology</a></div>
+  <h4>The Impact of Technology on <br> the Workplace: How <br> Technology is Changing</h4>
+  <div class="flex ">
+    <img src="./assets/Short Info.png" alt="logo">       
+  </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="p-3">
+      <div class="card bg-black text-white" style="width: 20rem;">
+        <img src="./assets/Rectangle 386.png" class="card-img-top" alt="...">
+        <div class="tec"><a href="#" class="btn btn-primary">Technology</a></div>
+  <h4>The Impact of Technology on <br> the Workplace: How <br> Technology is Changing</h4>
+  <div class="flex ">
+    <img src="./assets/Short Info.png" alt="logo">       
+  </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="p-3">
+      <div class="card bg-black text-white" style="width: 20rem;">
+        <img src="./assets/Rectangle 387.png" class="card-img-top" alt="...">
+        <div class="tec"><a href="#" class="btn btn-primary">Technology</a></div>
+  <h4>The Impact of Technology on <br> the Workplace: How <br> Technology is Changing</h4>
+  <div class="flex ">
+    <img src="./assets/Short Info.png" alt="logo">       
+  </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="p-3">
+      <div class="card bg-black text-white" style="width: 20rem;">
+        <img src="./assets/Rectangle 388.png" class="card-img-top" alt="...">
+        <div class="tec"><a href="#" class="btn btn-primary">Technology</a></div>
+  <h4>The Impact of Technology on <br> the Workplace: How <br> Technology is Changing</h4>
+  <div class="flex ">
+    <img src="./assets/Short Info.png" alt="logo">       
+  </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="p-3">
+      <div class="card bg-black text-white" style="width: 20rem;">
+        <img src="./assets/Rectangle 389.png" class="card-img-top" alt="...">
+        <div class="tec"><a href="#" class="btn btn-primary">Technology</a></div>
+  <h4>The Impact of Technology on <br> the Workplace: How <br> Technology is Changing</h4>
+  <div class="flex ">
+    <img src="./assets/Short Info.png" alt="logo">       
+  </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="button">
+<button type="button" style="color: aliceblue;" class="btn">View All Posts</button>
+</div>
+
+</div>
+
+<!-- Ads -->
+
+<div class="text-block  container" style="background-color: rgb(73, 69, 69); color: rgb(185, 171, 171);">
+  <p>Advertisement</p>
+  <h6>You can place ads</h6>
+  </div>
+
+<!-- footer -->
+
+<footer id="footer1" class="container-wraper text-white">
+<div class="container footer align-items-center justify-content-between">
+<div class="row">
+  <div class="about col-4">
+    <h2>About</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+    </p>
+    <p>
+      Email:
+      <a class="text-decoration-none" href="">info@jstemplate.net</a>
+    </p>
+    <p>
+      Phone:
+      <a class="text-decoration-none" href="tel: +880 123 456 789">+880 123 456 789</a>
+    </p>
+  </div>
+
+  <div class="info d-flex  col-4">
+    <div class="link">
+      <h5>Links</h5>
+      <ul class="contact-nav list-unstyled">
+        <li><a class="text-decoration-none" href="">Home</a></li>
+        <li><a class="text-decoration-none" href="">Blogs</a></li>
+        <li><a class="text-decoration-none" href="">About-me</a></li>
+        <li><a class="text-decoration-none" href="">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="catagory  d-block">
+      <h5>Category</h5>
+      <a class="text-decoration-none d-block" href="">Lifestyle</a>
+      <a class="text-decoration-none d-block" href="">Technology</a>
+      <a class="text-decoration-none d-block" href="">Travel</a>
+      <a class="text-decoration-none d-block" href="">Business</a>
+      <a class="text-decoration-none d-block" href="">Economy</a>
+      <a class="text-decoration-none d-block" href="">Sports</a>
+    </div>
+  </div>
+
+  <div class="form text-white for bg-black col-4">
+    
+    <h3>Weekly Newsletter</h3>
+    <p class="text-white text-opacity-50">
+      Get blog article and offers via e-mail.
+    </p>
+    <label for="email">Your Email:</label> <br>
+    <input type="email" style="background-color: black;" placeholder="your email"> <br>
+    <input class="btn" type="button" value="Subscribe">
+  </div>
+</div>
+</div>
+<div class="container">
+<hr>
+</div>
+
+<div class="end container  justify-content-between">
+<div class="row">
+  <div id="logo" class="logo col-lg-6">
+    <a href=""><img src="./assets/Copyright Info1.png" alt=""></a>
+  </div>
+
+  <nav class="navbar navbar-expand-lg col-sm-6">
+    <div class="container-fluid ">
+      <div id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Terms Of Use</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Privacy Policy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Cookie Policy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+</div>
+</footer>
+
+</div>
+
+<script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+  </script>
 
     <script src="./js/script.js"></script>
     <script src="./bs/js/bootstrap.bundle.min.js"></script>
