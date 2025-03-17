@@ -8,7 +8,9 @@
     --bg-color: #000;
     --text-color: white;
 } */
-
+:root{
+    scrollbar-width: none;
+}
 #light{
     background-color: white;
     --text-color: #202020;
