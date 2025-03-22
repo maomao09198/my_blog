@@ -1,6 +1,7 @@
 const toggleButton = document.getElementById("toggle-button");
 
 const logo = document.querySelector(".logo img")
+const footerLogo = document.querySelector(".footer-logo img"); 
 const menuItem = document.querySelector(".menu-item a");
 
 console.log(localStorage.getItem("theme"));
@@ -9,7 +10,8 @@ if (localStorage.getItem("theme") === "dark") {
     document.body.classList.add("dark-mode");
     toggleButton.classList.add("dark");
     logo.src = "./assets/logodark.png";
-
+    footerLogo.src = "./assets/footerdark.png";  
+    menuItem.style.color = "white";
 
 }
 toggleButton.addEventListener("click", () => {
@@ -21,10 +23,14 @@ toggleButton.addEventListener("click", () => {
         localStorage.setItem("theme", "dark");
         logo.src = "./assets/logodark.png";
         menuItem.color ="white";
+        footerLogo.src = "./assets/footerdark.png";  
+        menuItem.style.color = "white";  
     } else {
         localStorage.setItem("theme", "light");
         logo.src = "./assets/logowhite.png";
         menuItem.color ="#202020";
+        footerLogo.src = "./assets/footerwhite.png"; 
+        menuItem.style.color = "#202020";  
 
     }
 });
@@ -39,3 +45,4 @@ menuIcon.addEventListener("click", ()=>{
         menu.style.display = "block"
     }
 });
+
