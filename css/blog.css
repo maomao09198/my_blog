@@ -149,16 +149,6 @@ ul{
     box-shadow: 0px 0px 5px gray;
 }
 
-.hero-card2{
-    /* position: absolute; */
-    height: 200px;
-    
-    padding: 30px;
-    border-radius: 30px;
-    max-width: 600px;
-    background-color: var(--bg-color);
-    box-shadow: 0px 0px 5px gray;
-}
 
 .small-heading p{
     padding: 5px 15px;
@@ -167,13 +157,6 @@ ul{
     border-radius: 5px;
 }
 
-.small-heading2 p{
-    margin-left: -25px;
-    padding: 5px 15px;
-    background-color: #4B6BFB;
-    display: inline-block;
-    border-radius: 5px;
-}
 
 .hero-card .heading h2{
     font-family: "Work Sans", sans-serif;
@@ -185,20 +168,11 @@ ul{
     color: var(--text-sans-color);
 }
 
-.hero-card2 .heading h2{
-    font-family: "Work Sans", sans-serif;
-    font-weight: 600;
-    line-height: 40px;
-    font-size: 36px;
-    margin-top: 20px;
-    color: var(--text-sans-color);
-}
+
 .dark-mode .hero-card .heading h2{
     color: var(--text-sans-color);
 }
-.dark-mode .hero-card2 .heading h2{
-    color: var(--text-sans-color);
-}
+
 .hero-author{
     display: flex;
     align-items: center;
@@ -229,21 +203,31 @@ ul{
     max-width: 750px;
     margin: 70px auto;
 }
-.advertisement2{
+
+#advertisement2{
     display: flex;
-    
+    align-items: center;
     justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+    /* padding-bottom: 20px; */
     
-    padding-top: 20px;
-    padding-bottom: 20px;
-   
     height: fit-content;
-    border-radius: 12px;
+    
     flex-direction: column;
     gap: 10px;
-    max-width: 600px;
+    max-width: 750px;
     margin: 70px auto;
 }
+.Home{
+    margin-left: 5px;
+    gap: 5px;
+}
+.advertisement2{
+    line-height: 40px;
+    font-family: "Plus Jakarta Sans";
+}
+
 .advertisement button{
     background-color: var(--btn-bg-dark);
     padding: 10px 15px;
@@ -253,8 +237,8 @@ ul{
 }
 
 /*Latest Posts*/
-.latest-post h2{
-    margin-bottom: 30px;
+.latest-post{
+    margin-top: 40px;
 }
 .posts{
     display: grid;
@@ -456,12 +440,7 @@ ul{
   .theme-switch{
     margin-right: 5%;
   }
-  .hero-card{
-    display: none;
-  }
-  .hero-card2{
-    display: block;
-  }
+
   .container{
     margin-left: 5%;
     margin-right: 5%;
@@ -483,12 +462,5 @@ ul{
   .footer-last1{
     grid-template-columns: 1fr;
   }
-  .hero-card2{
-    display: block;
-  }
-}
-@media only screen and (min-width: 992px) {
-    .hero-card2{
-        display: none;
-      }
+ 
 }
