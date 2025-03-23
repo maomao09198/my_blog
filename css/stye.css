@@ -145,7 +145,7 @@ ul{
     
     padding: 30px;
     border-radius: 30px;
-    width: 518px;
+    max-width: 600px;
     background-color: var(--bg-color);
     box-shadow: 0px 0px 5px gray;
 }
@@ -231,7 +231,7 @@ ul{
     border-radius: 12px;
     flex-direction: column;
     gap: 10px;
-    max-width: 750px;
+    max-width: 600px;
     margin: 70px auto;
 }
 .advertisement button{
