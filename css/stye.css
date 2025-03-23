@@ -344,6 +344,7 @@ ul{
 .dark-mode .footer-link a{
     color: #BABABF;
 }
+
 .column-3{
     background-color: var(--ad-bg);
     border-radius: 15px;
@@ -371,7 +372,9 @@ ul{
 }
 .dark-mode .column-3 input{
     background-color: #181A2A;
+    color: white !important;
 }
+
 .column-3 button{
     
     background-color: var(--btn-bg-dark);

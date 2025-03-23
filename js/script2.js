@@ -46,3 +46,6 @@ menuIcon.addEventListener("click", ()=>{
     }
 });
 
+function showAlert() {
+    alert("Hello, You Subscribed !!!");
+  }

@@ -355,6 +355,7 @@ ul{
 }
 .dark-mode .column-3 input{
     background-color: #181A2A;
+    color: white !important;
 }
 .column-3 button{
     

@@ -35,7 +35,14 @@ body{
     transition: 0.3s ease-in-out;
 
 }
-
+.hero-author{
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+}
+.hero-author-name{
+    margin: 0 20px;
+}
 /* Global Layout*/
 *{
     margin: 0;
@@ -311,6 +318,7 @@ ul{
 }
 .dark-mode .column-3 input{
     background-color: #181A2A;
+    color: white !important;
 }
 .column-3 button{
     
