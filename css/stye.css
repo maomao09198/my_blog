@@ -11,7 +11,14 @@
     --text-sans-color: #181a2a;
     --ad-bg: #E8E8EA;
     --footer-bg: #F6F6F7;
-
+    --btn-card-bg: #f8f8fa;
+   
+}
+:root{
+    overflow-y: scroll;
+}
+:root::-webkit-scrollbar{
+    display: none;
 }
 .dark-mode{
     --bg-color: #000;
@@ -19,6 +26,7 @@
     --text-sans-color: white;
     --ad-bg: #242535;
     --footer-bg:#141624;
+    --btn-card-bg: #242535;
 }
 body{
     background-color: var(--bg-color);
@@ -26,6 +34,7 @@ body{
     transition: 0.3s ease-in-out;
 
 }
+
 /* Global Layout*/
 *{
     margin: 0;
@@ -197,7 +206,7 @@ ul{
     margin: 0 20px;
 }
 .hero-author-name p, .hero-author-date p{
-    font-size: 16px;
+    font-size: 14px;
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
     color: var(--text-sans-color);
@@ -268,10 +277,11 @@ ul{
 .post-card .badge{
     margin-top: 10px;
     padding: 5px 15px;
-    background-color: #4B6BFB;
+    background-color: var(--btn-card-bg);
     display: inline-block;
     border-radius: 5px;
     max-width: fit-content;
+    color: #4B6BFB;
 }
 .post-card h2{
     margin-top: 20px;
