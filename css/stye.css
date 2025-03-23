@@ -15,11 +15,12 @@
    
 }
 :root{
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
+    scrollbar-width: none;
 }
-:root::-webkit-scrollbar{
+/* :root::-webkit-scrollbar{
     display: none;
-}
+} */
 .dark-mode{
     --bg-color: #000;
     --text-color: white;
