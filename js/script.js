@@ -10,7 +10,7 @@ if (localStorage.getItem("theme") === "dark") {
     document.body.classList.add("dark-mode");
     toggleButton.classList.add("dark");
     logo.src = "./assets/logodark.png";
-    footerLogo.src = "./assets/footerdark.png";  
+    footerLogo.src = "./assets/footerlogodark.png";  
     menuItem.style.color = "white";
 
 }
@@ -23,13 +23,13 @@ toggleButton.addEventListener("click", () => {
         localStorage.setItem("theme", "dark");
         logo.src = "./assets/logodark.png";
         menuItem.color ="white";
-        footerLogo.src = "./assets/footerdark.png";  
+        footerLogo.src = "./assets/footerlogodark.png";  
         menuItem.style.color = "white";  
     } else {
         localStorage.setItem("theme", "light");
         logo.src = "./assets/logowhite.png";
         menuItem.color ="#202020";
-        footerLogo.src = "./assets/footerwhite.png"; 
+        footerLogo.src = "./assets/footerlogowhite.png"; 
         menuItem.style.color = "#202020";  
 
     }
