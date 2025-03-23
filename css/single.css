@@ -200,6 +200,7 @@ ul{
     color: var(--text-sans-color);
 } */
 .hero-author{
+    margin-top: 18px;
     display: flex;
     align-items: center;
 }
@@ -472,12 +473,7 @@ ul{
   .theme-switch{
     margin-right: 5%;
   }
-  .hero-card{
-    display: none;
-  }
-  .hero-card2{
-    display: block;
-  }
+ 
   .container{
     margin-left: 5%;
     margin-right: 5%;
@@ -499,12 +495,4 @@ ul{
   .footer-last1{
     grid-template-columns: 1fr;
   }
-  .hero-card2{
-    display: block;
-  }
-}
-@media only screen and (min-width: 992px) {
-    .hero-card2{
-        display: none;
-      }
 }
